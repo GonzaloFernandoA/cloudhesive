@@ -1,0 +1,37 @@
+server:
+  port: 20000
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAVEJ72JW3T7ZG35WO
+      secret-key: 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
+    region:
+      static: sa-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: gonzalobucketatvalut
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+ 
+salesforce:
+  user: operaciones.salesforce@sendati.com.SBPCopy
+  password: S3nd4@T1
+  url: https://cloudhesive1--sbpcopy.sandbox.lightning.force.com/
+  url_test: https://test.salesforce.com/
+  token: xelJdMbtkTl1Gc3TwKatc4O5F
+  consumer:
+    key: 3MVG9wLr_6EJB3zAJtp_L1crdQXrNY1aRsV9LbrbqwemHuku83uLp6kX79dtCPFodYHlUziWWKqdolMoJdt_Q
+    secret: 50CDBD954068F037C0733C2D32F8C6DE1C37B70020195D979ABD5C4789C1E722
+  
